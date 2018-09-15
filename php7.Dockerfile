@@ -5,4 +5,5 @@ RUN apt-get update \
     phpunit \
     php-xml \
     php-curl \
+    ca-certificates \
  && apt-get autoclean
